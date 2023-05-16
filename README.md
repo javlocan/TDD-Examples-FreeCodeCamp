@@ -1,8 +1,12 @@
-## TDD-Examples-FreeCodeCamp
+# TDD-Examples-FreeCodeCamp
 
 I will use this repository to show my work with Test Driven Development approach. The exercises are extracted from FreeCodeCamp JavaScript course. These are quite simple examples, basic enough to help me learn the fundamentals of TDD.
 
-# 1. First reflections: convertToRoman.js example
+## 0. Testing technology: Vitest
+
+This is the one I saw in *midudev*'s  (a really good teacher streamer of React and JS fundamentals) youtube course. I also have found vite an easy tool to use and was looking forward to try more products of theirs.
+
+## 1. First reflections: convertToRoman.js example
 
 I quite enjoy how this approach forces you to build something basic and makes you think about the problem from the easiest, simplest implementation to the more complex and complete. I end up with a greater understanding of what I'm doing with the code than when I don't use TDD.
 
@@ -11,3 +15,8 @@ One could say it's slower, but it actually helped solving the obstacles I found 
 At the moment, it's all advantages.
 
 I predict that it will be specially helpful with complex problems. Complex in the sense of 'elaborate, difficult to manage all at once', similar to this example, rather than 'cognitively demanding' as in recursivity problems.
+
+## 2. checkCashRegister exercise
+
+For this one it was harder to design the tests. Also, I had to do a weird thing to control the fload decimals that I'm completely sure it's bad practice. I still don't understand what originated the issue that makes things like 0.07-0.02 return 0.0499999996 and similar. If you know why, please DM me :) 
+
