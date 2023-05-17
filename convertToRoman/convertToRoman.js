@@ -50,7 +50,6 @@ export const convertToRoman = (num) => {
       }
     }
   }
-  console.log(arr, arr.length, result)
   return result
 }
 

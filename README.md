@@ -1,6 +1,6 @@
 # TDD-Examples-FreeCodeCamp
 
-I will use this repository to show my work with Test Driven Development approach. The exercises are extracted from FreeCodeCamp JavaScript course. These are quite simple examples, basic enough to help me learn the fundamentals of TDD.
+I will use this repository to show my work with Test Driven Development approach. The exercises are extracted from FreeCodeCamp JavaScript's Algorythm and Structure course and Coding Interview Prep course. These are quite simple examples, basic enough to help me learn the fundamentals of TDD.
 
 ## 0. Testing technology: Vitest
 
@@ -19,4 +19,8 @@ I predict that it will be specially helpful with complex problems. Complex in th
 ## 2. checkCashRegister exercise
 
 For this one it was harder to design the tests. Also, I had to do a weird thing to control the fload decimals that I'm completely sure it's bad practice. I still don't understand what originated the issue that makes things like 0.07-0.02 return 0.0499999996 and similar. If you know why, please DM me :) 
+
+## 2. telephoneCheck exercise
+
+I had a lot of doubts about how to approach this exercise. Firstly I thought of making the default return false and managing the conditions that were true, but in the end I think I made the right decision. This was a clear example of the thinking process of TDD, because I had to imagine different cases for the test. I just aimed to the tests and requirements of the original. I still think I could have done a better job, but I don't find very useful spending more time on this example right now.
 

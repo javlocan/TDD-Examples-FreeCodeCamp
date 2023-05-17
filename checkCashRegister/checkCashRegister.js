@@ -19,7 +19,6 @@ export const checkCashRegister = (price, cash, cid) => {
   }
 
   const closed = cid.reduce((total,coin) => {
-    console.log(total)
     return total=total+coin[1]
   },0) 
 
